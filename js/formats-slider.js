@@ -9,10 +9,10 @@ const swiper = new Swiper('.swiper-container', {
         1280: {
           slidesPerView: 3,
         }
-      }
+      },
     pagination: {
       el: '.pagination',
-      bulletClass: 'pagination__button'
+      bulletClass: 'pagination__button',
       bulletActiveClass: 'pagination__button_active'
     },
     navigation: {
